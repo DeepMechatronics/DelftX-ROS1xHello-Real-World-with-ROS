@@ -60,8 +60,9 @@
   </joint>
   <link name="robot2_pedestal_link">
     <visual>
+     <origin xyz="0 0 0.3"/>
      <geometry> 
-       <box size="1 1 1" />
+       <box size="0.3 0.3 0.6" />
      </geometry>
     </visual>
   </link>

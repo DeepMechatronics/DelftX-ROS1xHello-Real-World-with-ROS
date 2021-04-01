@@ -58,5 +58,15 @@
     <child link="bin_1_base_link" />
     <origin xyz="-8.3 -2.2 0.0" rpy="0 0 0" />
   </joint>
-
+  <link name="robot2_pedestal_link">
+    <visual>
+     <geometry> 
+       <box size="1 1 1" />
+     </geometry>
+    </visual>
+  </link>
+  <joint name="robot2_pedestal_joint" type="fixed">
+    <parent link="world" />
+    <child link="robot2_pedestal_link" />
+  </joint>
 </robot>

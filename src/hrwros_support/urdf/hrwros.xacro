@@ -64,6 +64,9 @@
      <geometry> 
        <box size="0.3 0.3 0.6" />
      </geometry>
+     <material name="robot2_pedestal_colour">
+      <color rgba="0 0.16 0.53 1"/>
+     </material>
     </visual>
   </link>
   <joint name="robot2_pedestal_joint" type="fixed">

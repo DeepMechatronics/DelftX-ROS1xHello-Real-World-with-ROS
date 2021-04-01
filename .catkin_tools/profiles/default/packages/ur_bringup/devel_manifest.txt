@@ -1,5 +1,0 @@
-universal_robot/ur_bringup
-/home/deep/hrwros_ws/devel/.private/ur_bringup/cmake.lock /home/deep/hrwros_ws/devel/./cmake.lock
-/home/deep/hrwros_ws/devel/.private/ur_bringup/share/ur_bringup/cmake/ur_bringupConfig-version.cmake /home/deep/hrwros_ws/devel/share/ur_bringup/cmake/ur_bringupConfig-version.cmake
-/home/deep/hrwros_ws/devel/.private/ur_bringup/share/ur_bringup/cmake/ur_bringupConfig.cmake /home/deep/hrwros_ws/devel/share/ur_bringup/cmake/ur_bringupConfig.cmake
-/home/deep/hrwros_ws/devel/.private/ur_bringup/lib/pkgconfig/ur_bringup.pc /home/deep/hrwros_ws/devel/lib/pkgconfig/ur_bringup.pc

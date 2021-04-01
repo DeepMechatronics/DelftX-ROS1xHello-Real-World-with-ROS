@@ -72,5 +72,6 @@
   <joint name="robot2_pedestal_joint" type="fixed">
     <parent link="world" />
     <child link="robot2_pedestal_link" />
+    <origin xyz="-7.8 -1.5 0"/>
   </joint>
 </robot>

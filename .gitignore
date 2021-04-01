@@ -1,3 +1,6 @@
+.catkin_tools/
+src/CMakeLists.txt
+src/hrwros_support/urdf/ur_description/
 devel/
 logs/
 build/
@@ -49,3 +52,4 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+

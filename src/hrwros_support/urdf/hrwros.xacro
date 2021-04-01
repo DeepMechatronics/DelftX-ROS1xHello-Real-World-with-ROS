@@ -85,8 +85,13 @@
     <origin xyz="-7.8 -1.5 0"/>
   </joint>
 
-  <xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro"/>
+ <!-- <xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro"/>
   <xacro:ur5_robot prefix="robot2_" joint_limited="true"/>
+  -->
+
+  <xacro:include filename="$(find hrwros_week2)/urdf/robot/lrmate200ic_macro.xacro"/>
+  <xacro:fanuc_lrmate200ic prefix="robot2_" joint_limited="true"/>
+  
   <joint name="robot2-robot2_pedestal_joint" type="fixed">
    <parent link="robot2_pedestal_link"/>
    <child link="robot2_base_link" />

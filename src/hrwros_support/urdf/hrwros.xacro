@@ -56,7 +56,7 @@
   <joint name="bin_1_joint" type="fixed">
     <parent link="world_interface" />
     <child link="bin_1_base_link" />
-    <origin xyz="-0.3 1.2 0.0" rpy="0 0 0" />
+    <origin xyz="-8.3 -2.2 0.0" rpy="0 0 0" />
   </joint>
 
 </robot>

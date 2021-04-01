@@ -200,6 +200,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        sphere_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         vacuum_gripper1_base_link:
           Alpha: 1
           Show Axes: false
@@ -256,7 +261,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 6.027348041534424
+      Distance: 15.118866920471191
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -271,10 +276,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8553975820541382
+      Pitch: 0.5247967839241028
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.4272109270095825
+      Yaw: 2.7322092056274414
     Saved: ~
 Window Geometry:
   Displays:

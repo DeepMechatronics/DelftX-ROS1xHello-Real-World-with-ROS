@@ -78,6 +78,7 @@
      </material>
     </visual>
   </link>
+
   <joint name="robot2_pedestal_joint" type="fixed">
     <parent link="world" />
     <child link="robot2_pedestal_link" />
@@ -91,5 +92,22 @@
    <child link="robot2_base_link" />
    <origin xyz="0 0 0.6" rpy="0 0 ${radians(90)}"/> 
   </joint>
+  
+   <link name="sphere_link">
+     <visual>
+       <origin xyz="0 0 0.2"/>
+       <geometry> 
+        <sphere radius="0.2" />
+       </geometry>
+       <material name="sphere_colour">
+         <color rgba="0.1 1 0.1 1"/>
+       </material>
+      </visual>
+    </link>
 
+ <joint name="sphere_world_joint" type="fixed">
+    <parent link="world" />
+    <child link="sphere_link" />
+    <origin xyz="5.8 -5.5 0"/>
+  </joint>
 </robot>

@@ -2,4 +2,5 @@ devel/
 build/
 logs/
 src/hrwros_support/config/hrwros.rviz
+.catkin_tools/
 
